@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-10">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix Home</title>
+        <style>
+            body {
+                margin: 1.0;
+                padding: 5;
+                font-family:  'Arial Narrow', Arial, sans-serif, 2000px;
+                background-color: #111;
+                color: #fff;
+            }
+
+            header {
+                background-color: #111;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+
+            .movie-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+            .movie {
+                margin: 10px;
+                overflow: hidden;
+                position: relative;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s;
+            }
+
+            .movie-hover {
+                transform: scale(1.05);
+            }
+
+            .movie img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            .movie-title {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 10px;
+                text-align: center;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <hi>Netflix Home</hi>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="container">
+                <div class="movie-container">
+                    <div class="movie">
+                        <img src="c:\Users\SUBHAM\Downloads\movie1.jpg" alt="Movie 1">
+                        <div class="movie-title">Jawan</div>
+                    </div>
+                    <div class="movie">
+                        <img src="c:\Users\SUBHAM\Downloads\movie2.jpg" alt="Movie 2">
+                        <div class="movie-title">Bholaa</div>
+                    </div>
+                    <!-- click here for more -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
